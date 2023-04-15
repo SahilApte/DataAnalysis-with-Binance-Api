@@ -1,2 +1,27 @@
-# DataAnalysis-with-Binance-Api
-Code uses Python-Binance library to get ticker data, depth information and historical klines data for BTCUSDT. It then uses mplfinance and plotly to plot candlestick charts with moving averages and annotations for support and resistance levels.
+# Binance API example using Python
+
+This is an example of how to use Binance API with Python to get market data and display it using various visualizations.
+
+## Installation
+
+To run this code, you need to have the following Python libraries installed:
+
+- binance
+- pandas
+- mplfinance
+- plotly
+
+You can install these libraries using pip:
+
+```python
+!pip install python-binance pandas mplfinance plotly
+
+
+ # Import Libraries
+
+import pandas as pd
+import mplfinance as mpf
+import plotly.graph_objs as go
+from binance import Client
+
+```
